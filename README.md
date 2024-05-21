@@ -40,7 +40,7 @@ CodeLink é um projeto desenvolvido com Django, um framework web em Python, com 
 
 #### Uso
 
-Acesse `http://127.0.0.1:8000/admin` no navegador para visualizar a aplicação em execução.
+Acesse `http://127.0.0.1:8000/` no navegador para visualizar a aplicação em execução.
 
 #### Licença
 
