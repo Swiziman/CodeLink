@@ -8,8 +8,6 @@ CodeLink é um projeto desenvolvido com Django, um framework web em Python, com 
 
 - `core`: Contém a configuração principal do projeto.
 - `app`: Diretório para os aplicativos principais da aplicação.
-- `bancodedados`: Gerencia interações e configurações do banco de dados.
-- `alarme`: Aplicativo específico para funcionalidades de alarme.
 
 #### Requisitos
 
@@ -20,7 +18,7 @@ CodeLink é um projeto desenvolvido com Django, um framework web em Python, com 
 
 1. Clone o repositório:
     ```sh
-    git clone git@github.com:danielbvrr/CodeLink.git
+    git clone https://github.com/Swiziman/CodeLink.git
     ```
 2. Navegue até o diretório do projeto:
     ```sh
@@ -35,18 +33,14 @@ CodeLink é um projeto desenvolvido com Django, um framework web em Python, com 
     ```sh
     pip install -r requirements.txt
     ```
-5. Aplique as migrações do banco de dados:
-    ```sh
-    python manage.py migrate
-    ```
-6. Inicie o servidor de desenvolvimento:
+5. Inicie o servidor de desenvolvimento:
     ```sh
     python manage.py runserver
     ```
 
 #### Uso
 
-Acesse `http://127.0.0.1:8000/` no navegador para visualizar a aplicação em execução.
+Acesse `http://127.0.0.1:8000/admin` no navegador para visualizar a aplicação em execução.
 
 #### Licença
 
@@ -64,5 +58,5 @@ Contribuições são bem-vindas! Siga as etapas abaixo para contribuir:
 4. Push para a branch (`git push origin feature/NomeDaFeature`).
 5. Abra um Pull Request.
 
-Para mais detalhes, acesse o repositório [CodeLink](https://github.com/danielbvrr/CodeLink). 
+Para mais detalhes, acesse o repositório [CodeLink](https://github.com/Swiziman/CodeLink). 
 =======
