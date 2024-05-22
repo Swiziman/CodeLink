@@ -11,8 +11,8 @@ CodeLink é um projeto desenvolvido com Django, um framework web em Python, com 
 
 #### Requisitos
 
-- Python 3.x
-- Django 5.x
+- Python 3.12.3
+- Django 5.0.6
 
 #### Instalação
 
