@@ -17,10 +17,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from core.views import redirect_to_core
+from core.views import carregar_dados_view
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('core/', include('core.urls')),
     path('', redirect_to_core),
+    path('carregar-dados/', carregar_dados_view, name='carregar_dados'),
 ]

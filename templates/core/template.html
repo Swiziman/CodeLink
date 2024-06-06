@@ -1,0 +1,22 @@
+<!-- your_app/templates/your_app/template.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dispositivos Usuários</title>
+</head>
+<body>
+    <h1>Dispositivos Usuários</h1>
+    <ul>
+        {% for item in dev_loc %}
+            <li>
+                <strong>Cor:</strong> {{ item.cor }}<br>
+                <strong>Tag:</strong> {{ item.tag }}<br>
+                <strong>Destino:</strong> {{ item.destino }}<br>
+                <strong>Altura:</strong> {{ item.h }}<br>
+                <strong>Largura:</strong> {{ item.w }}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

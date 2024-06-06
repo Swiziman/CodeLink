@@ -88,6 +88,8 @@ DATABASES = {
     }
 }
 
+SUPABASE_URL = 'https://cavikcnsdlhepwnlucge.supabase.co'
+SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNhdmlrY25zZGxoZXB3bmx1Y2dlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTE2NDc2NzIsImV4cCI6MjAyNzIyMzY3Mn0.zweb4dmgYhkXGI9gNo23EqrABrHiJWQIR4htZk3asfc'
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
