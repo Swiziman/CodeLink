@@ -1,5 +1,5 @@
 import asyncio
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import JsonResponse
 from .supabase_utils import _carrega_dados
 #from .models import Movimentacao
