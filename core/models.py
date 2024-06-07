@@ -16,6 +16,11 @@ class registro_movimentacao(models.Model):
     (2, 'Recepção'),
     (3, 'Quarto 1'),
     (4, 'Quarto 2'),
+    (5, 'Quarto 3'),
+    (6, 'Quarto 4'),
+    (7, 'Sala de Raio-X'),
+    (8, 'Ortopedia'),
+    #(6, 'Quarto 4'),
 
 ]
     raspberry_id = models.IntegerField(choices=RASPBERRY_CHOICES)
