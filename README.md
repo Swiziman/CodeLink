@@ -13,10 +13,10 @@ CodeLink é um projeto desenvolvido com Django, um framework web em Python, com 
 
 - Python 3.12.3
 - Django 5.0.6
-- psycopg2==2.9.9
-- psycopg2-binary==2.9.9
-- schedule==1.2.1
-- supabase-py==0.0.2
+- psycopg2
+- psycopg2-binary
+- schedule
+- supabase
 
 #### Instalação
 
